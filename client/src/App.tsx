@@ -6,7 +6,7 @@ import Auth from "./pages/auth";
 function App() {
   return (
     <Router>
-      <div className="max-w-5xl">
+      <div className="max-w-6xl">
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/auth" element={<Auth />} />
